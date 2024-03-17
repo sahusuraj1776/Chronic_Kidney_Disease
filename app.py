@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('C:/Users/Sahu Suraj/OneDrive/Documents/SEM 6 MiniProject/Chronic_kidney.sav','rb'))  # Read Binary
+loaded_model = pickle.load(open('./Chronic_kidney.sav','rb'))  # Read Binary
 
 def chronic_kidney_prediction(input_data):
     # input_data = (0,137,40,35,168,43.1,2.288,33)
